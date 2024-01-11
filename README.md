@@ -15,12 +15,12 @@ Two-bit counters are basic building blocks in digital circuits and are often use
 They are fundamental in applications where counting or sequencing is required, such as in control units, timers, or frequency dividers.
 Truth Table:
 
-mathematica
-Copy code
+
  Q1 | Q0 | Next State
 ----|----|------------
  0  | 0  | 0 0
  0  | 1  | 0 1
  1  | 0  | 1 0
  1  | 1  | 1 1
+ 
 In summary, a two-bit synchronous counter is a basic binary counter with two states, counting through 00, 01, 10, and 11 in a cyclic manner. It provides a simple way to understand and implement sequential digital logic circuits.
