@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../twoBitSynchronousCounter.srcs/sources_1/new/jkFlipFlop.sv" \
+"../../../../twoBitSynchronousCounter.srcs/sources_1/new/twoBitSynchronousCounter.sv" \
+"../../../../twoBitSynchronousCounter.srcs/sim_1/new/twoBitCounterTB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
