@@ -1,4 +1,0 @@
-Running: xsim.dir/twoBitCounterTB_behav/xsimk.exe -simmode gui -wdb twoBitCounterTB_behav.wdb -simrunnum 0 -socket 52014
-Design successfully loaded
-Design Loading Memory Usage: 7296 KB (Peak: 7296 KB)
-Design Loading CPU Usage: 46 ms
